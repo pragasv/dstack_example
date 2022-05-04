@@ -9,7 +9,7 @@ workflows:
   - name: train-mnist
     provider: python
     requirements: requirements.txt
-    python_script: train.py
+    python_script: train_withhuggingface.py
     depends-on:
       - download-minst
     artifacts:

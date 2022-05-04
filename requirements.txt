@@ -10,3 +10,8 @@ botocore
 python-dateutil
 tensorflow
 keras
+matplotlib
+accelerate
+torch
+torchvision 
+torchaudio
